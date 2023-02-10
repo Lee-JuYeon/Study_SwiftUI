@@ -97,6 +97,7 @@
 		7E75BFBE299673720006539B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				7E75BFFB299673D60006539B /* Views */,
 				7E75BFBF299673720006539B /* CustomViewApp.swift */,
 				7E75BFC0299673720006539B /* ContentView.swift */,
 				7E75BFC1299673730006539B /* Assets.xcassets */,
@@ -139,6 +140,21 @@
 				7E75BFE5299673730006539B /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		7E75BFFB299673D60006539B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7E75BFFC299673DE0006539B /* RecyclerView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7E75BFFC299673DE0006539B /* RecyclerView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RecyclerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
