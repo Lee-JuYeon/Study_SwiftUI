@@ -15,12 +15,12 @@ CustomViews for SwiftUI
 
 
 | <span style="color:yellow">TODO.</span>| Success?    | 
-| ------------- | ----------- |
-| RecyclerView  |:✅:|
-| GridView      |:✅:|
-| PageView      |:✅:|
-| CustomTabView |:✅:|
-| Color Theme   |:✅:|
+| ------------- | :-----------: |
+| RecyclerView  |✅|
+| GridView      |✅|
+| PageView      |✅|
+| CustomTabView |✅|
+| Color Theme   |✅|
 | Location based AR ||
 | Permission with Low API ||
 
