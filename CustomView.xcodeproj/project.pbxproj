@@ -17,6 +17,14 @@
 		7E75BFEA299673730006539B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75BFC0299673720006539B /* ContentView.swift */; };
 		7E75BFEB299673730006539B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E75BFC1299673730006539B /* Assets.xcassets */; };
 		7E75BFEC299673730006539B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E75BFC1299673730006539B /* Assets.xcassets */; };
+		7E75BFFE299674230006539B /* RecyclerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75BFFD299674230006539B /* RecyclerView.swift */; };
+		7E75BFFF299674230006539B /* RecyclerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75BFFD299674230006539B /* RecyclerView.swift */; };
+		7E75C000299674230006539B /* RecyclerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75BFFD299674230006539B /* RecyclerView.swift */; };
+		7E75C001299674230006539B /* RecyclerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75BFFD299674230006539B /* RecyclerView.swift */; };
+		7E75C003299674400006539B /* RecyclerViewAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C002299674400006539B /* RecyclerViewAxis.swift */; };
+		7E75C004299674400006539B /* RecyclerViewAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C002299674400006539B /* RecyclerViewAxis.swift */; };
+		7E75C005299674400006539B /* RecyclerViewAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C002299674400006539B /* RecyclerViewAxis.swift */; };
+		7E75C006299674400006539B /* RecyclerViewAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C002299674400006539B /* RecyclerViewAxis.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,8 @@
 		7E75BFDF299673730006539B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E75BFE3299673730006539B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		7E75BFE5299673730006539B /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		7E75BFFD299674230006539B /* RecyclerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecyclerView.swift; sourceTree = "<group>"; };
+		7E75C002299674400006539B /* RecyclerViewAxis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecyclerViewAxis.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +163,8 @@
 		7E75BFFC299673DE0006539B /* RecyclerView */ = {
 			isa = PBXGroup;
 			children = (
+				7E75BFFD299674230006539B /* RecyclerView.swift */,
+				7E75C002299674400006539B /* RecyclerViewAxis.swift */,
 			);
 			path = RecyclerView;
 			sourceTree = "<group>";
@@ -315,7 +327,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E75BFFE299674230006539B /* RecyclerView.swift in Sources */,
 				7E75BFE9299673730006539B /* ContentView.swift in Sources */,
+				7E75C003299674400006539B /* RecyclerViewAxis.swift in Sources */,
 				7E75BFE7299673730006539B /* CustomViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,7 +338,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E75BFFF299674230006539B /* RecyclerView.swift in Sources */,
 				7E75BFEA299673730006539B /* ContentView.swift in Sources */,
+				7E75C004299674400006539B /* RecyclerViewAxis.swift in Sources */,
 				7E75BFE8299673730006539B /* CustomViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,7 +349,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E75C000299674230006539B /* RecyclerView.swift in Sources */,
 				7E75BFDA299673730006539B /* Tests_iOSLaunchTests.swift in Sources */,
+				7E75C005299674400006539B /* RecyclerViewAxis.swift in Sources */,
 				7E75BFD8299673730006539B /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,7 +360,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E75C001299674230006539B /* RecyclerView.swift in Sources */,
 				7E75BFE6299673730006539B /* Tests_macOSLaunchTests.swift in Sources */,
+				7E75C006299674400006539B /* RecyclerViewAxis.swift in Sources */,
 				7E75BFE4299673730006539B /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
