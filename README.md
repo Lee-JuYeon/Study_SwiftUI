@@ -12,9 +12,12 @@ CustomViews for SwiftUI
 
 | TODO.         | Success?    | 
 | ------------- | ----------- |
-| RecyclerView  |      ✅     |
-| GridView      |      ✅     |
-| PageView      |      ✅     |
-| CustomTabView |      ✅     |
-| Color Theme   |      ✅     |
-| Location based AR |             |
+| RecyclerView  |✅|
+| GridView      |✅|
+| PageView      |✅|
+| CustomTabView |✅|
+| Color Theme   |✅|
+| Location based AR ||
+| Permission with Low API ||
+
+
