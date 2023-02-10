@@ -44,6 +44,14 @@
 		7E75C021299678C60006539B /* CustomTabBottomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C01F299678C60006539B /* CustomTabBottomItem.swift */; };
 		7E75C022299678C60006539B /* CustomTabBottomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C01F299678C60006539B /* CustomTabBottomItem.swift */; };
 		7E75C023299678C60006539B /* CustomTabBottomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C01F299678C60006539B /* CustomTabBottomItem.swift */; };
+		7E75C0262996798B0006539B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C0252996798B0006539B /* Theme.swift */; };
+		7E75C0272996798B0006539B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C0252996798B0006539B /* Theme.swift */; };
+		7E75C0282996798B0006539B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C0252996798B0006539B /* Theme.swift */; };
+		7E75C0292996798B0006539B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C0252996798B0006539B /* Theme.swift */; };
+		7E75C02B29967BFB0006539B /* ThemeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C02A29967BFB0006539B /* ThemeExtension.swift */; };
+		7E75C02C29967BFB0006539B /* ThemeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C02A29967BFB0006539B /* ThemeExtension.swift */; };
+		7E75C02D29967BFB0006539B /* ThemeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C02A29967BFB0006539B /* ThemeExtension.swift */; };
+		7E75C02E29967BFB0006539B /* ThemeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C02A29967BFB0006539B /* ThemeExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +93,8 @@
 		7E75C01B299678A10006539B /* CustomTabBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBottom.swift; sourceTree = "<group>"; };
 		7E75C01D299678AA0006539B /* CustomTabItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabItemModel.swift; sourceTree = "<group>"; };
 		7E75C01F299678C60006539B /* CustomTabBottomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBottomItem.swift; sourceTree = "<group>"; };
+		7E75C0252996798B0006539B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		7E75C02A29967BFB0006539B /* ThemeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +143,7 @@
 		7E75BFBE299673720006539B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				7E75C024299679800006539B /* Theme */,
 				7E75BFFB299673D60006539B /* Views */,
 				7E75BFBF299673720006539B /* CustomViewApp.swift */,
 				7E75BFC0299673720006539B /* ContentView.swift */,
@@ -224,6 +235,15 @@
 				7E75C01F299678C60006539B /* CustomTabBottomItem.swift */,
 			);
 			path = CustomTabView;
+			sourceTree = "<group>";
+		};
+		7E75C024299679800006539B /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				7E75C0252996798B0006539B /* Theme.swift */,
+				7E75C02A29967BFB0006539B /* ThemeExtension.swift */,
+			);
+			path = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,6 +404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E75C02B29967BFB0006539B /* ThemeExtension.swift in Sources */,
 				7E75C020299678C60006539B /* CustomTabBottomItem.swift in Sources */,
 				7E75C009299674B90006539B /* PageView.swift in Sources */,
 				7E75C01E299678AA0006539B /* CustomTabItemModel.swift in Sources */,
@@ -393,6 +414,7 @@
 				7E75BFE9299673730006539B /* ContentView.swift in Sources */,
 				7E75C003299674400006539B /* RecyclerViewAxis.swift in Sources */,
 				7E75C01C299678A10006539B /* CustomTabBottom.swift in Sources */,
+				7E75C0262996798B0006539B /* Theme.swift in Sources */,
 				7E75C00F2996751E0006539B /* GridView.swift in Sources */,
 				7E75BFE7299673730006539B /* CustomViewApp.swift in Sources */,
 			);
@@ -402,12 +424,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E75C0272996798B0006539B /* Theme.swift in Sources */,
 				7E75C00A299674B90006539B /* PageView.swift in Sources */,
 				7E75C0152996752E0006539B /* GridType.swift in Sources */,
 				7E75C021299678C60006539B /* CustomTabBottomItem.swift in Sources */,
 				7E75BFFF299674230006539B /* RecyclerView.swift in Sources */,
 				7E75BFEA299673730006539B /* ContentView.swift in Sources */,
 				7E75C004299674400006539B /* RecyclerViewAxis.swift in Sources */,
+				7E75C02C29967BFB0006539B /* ThemeExtension.swift in Sources */,
 				7E75C0102996751E0006539B /* GridView.swift in Sources */,
 				7E75BFE8299673730006539B /* CustomViewApp.swift in Sources */,
 			);
@@ -417,12 +441,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E75C0282996798B0006539B /* Theme.swift in Sources */,
 				7E75C00B299674B90006539B /* PageView.swift in Sources */,
 				7E75C0162996752E0006539B /* GridType.swift in Sources */,
 				7E75C022299678C60006539B /* CustomTabBottomItem.swift in Sources */,
 				7E75C000299674230006539B /* RecyclerView.swift in Sources */,
 				7E75BFDA299673730006539B /* Tests_iOSLaunchTests.swift in Sources */,
 				7E75C005299674400006539B /* RecyclerViewAxis.swift in Sources */,
+				7E75C02D29967BFB0006539B /* ThemeExtension.swift in Sources */,
 				7E75C0112996751E0006539B /* GridView.swift in Sources */,
 				7E75BFD8299673730006539B /* Tests_iOS.swift in Sources */,
 			);
@@ -432,12 +458,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E75C0292996798B0006539B /* Theme.swift in Sources */,
 				7E75C00C299674B90006539B /* PageView.swift in Sources */,
 				7E75C0172996752E0006539B /* GridType.swift in Sources */,
 				7E75C023299678C60006539B /* CustomTabBottomItem.swift in Sources */,
 				7E75C001299674230006539B /* RecyclerView.swift in Sources */,
 				7E75BFE6299673730006539B /* Tests_macOSLaunchTests.swift in Sources */,
 				7E75C006299674400006539B /* RecyclerViewAxis.swift in Sources */,
+				7E75C02E29967BFB0006539B /* ThemeExtension.swift in Sources */,
 				7E75C0122996751E0006539B /* GridView.swift in Sources */,
 				7E75BFE4299673730006539B /* Tests_macOS.swift in Sources */,
 			);
