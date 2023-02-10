@@ -29,6 +29,14 @@
 		7E75C00A299674B90006539B /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C008299674B90006539B /* PageView.swift */; };
 		7E75C00B299674B90006539B /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C008299674B90006539B /* PageView.swift */; };
 		7E75C00C299674B90006539B /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C008299674B90006539B /* PageView.swift */; };
+		7E75C00F2996751E0006539B /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C00E2996751E0006539B /* GridView.swift */; };
+		7E75C0102996751E0006539B /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C00E2996751E0006539B /* GridView.swift */; };
+		7E75C0112996751E0006539B /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C00E2996751E0006539B /* GridView.swift */; };
+		7E75C0122996751E0006539B /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C00E2996751E0006539B /* GridView.swift */; };
+		7E75C0142996752E0006539B /* GridType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C0132996752E0006539B /* GridType.swift */; };
+		7E75C0152996752E0006539B /* GridType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C0132996752E0006539B /* GridType.swift */; };
+		7E75C0162996752E0006539B /* GridType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C0132996752E0006539B /* GridType.swift */; };
+		7E75C0172996752E0006539B /* GridType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75C0132996752E0006539B /* GridType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +72,8 @@
 		7E75BFFD299674230006539B /* RecyclerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecyclerView.swift; sourceTree = "<group>"; };
 		7E75C002299674400006539B /* RecyclerViewAxis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecyclerViewAxis.swift; sourceTree = "<group>"; };
 		7E75C008299674B90006539B /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		7E75C00E2996751E0006539B /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		7E75C0132996752E0006539B /* GridType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +170,7 @@
 		7E75BFFB299673D60006539B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7E75C00D299675100006539B /* GridView */,
 				7E75C007299674A80006539B /* PageView */,
 				7E75BFFC299673DE0006539B /* RecyclerView */,
 			);
@@ -181,6 +192,15 @@
 				7E75C008299674B90006539B /* PageView.swift */,
 			);
 			path = PageView;
+			sourceTree = "<group>";
+		};
+		7E75C00D299675100006539B /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				7E75C00E2996751E0006539B /* GridView.swift */,
+				7E75C0132996752E0006539B /* GridType.swift */,
+			);
+			path = GridView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,9 +362,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E75C009299674B90006539B /* PageView.swift in Sources */,
+				7E75C0142996752E0006539B /* GridType.swift in Sources */,
 				7E75BFFE299674230006539B /* RecyclerView.swift in Sources */,
 				7E75BFE9299673730006539B /* ContentView.swift in Sources */,
 				7E75C003299674400006539B /* RecyclerViewAxis.swift in Sources */,
+				7E75C00F2996751E0006539B /* GridView.swift in Sources */,
 				7E75BFE7299673730006539B /* CustomViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,9 +376,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E75C00A299674B90006539B /* PageView.swift in Sources */,
+				7E75C0152996752E0006539B /* GridType.swift in Sources */,
 				7E75BFFF299674230006539B /* RecyclerView.swift in Sources */,
 				7E75BFEA299673730006539B /* ContentView.swift in Sources */,
 				7E75C004299674400006539B /* RecyclerViewAxis.swift in Sources */,
+				7E75C0102996751E0006539B /* GridView.swift in Sources */,
 				7E75BFE8299673730006539B /* CustomViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,9 +390,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E75C00B299674B90006539B /* PageView.swift in Sources */,
+				7E75C0162996752E0006539B /* GridType.swift in Sources */,
 				7E75C000299674230006539B /* RecyclerView.swift in Sources */,
 				7E75BFDA299673730006539B /* Tests_iOSLaunchTests.swift in Sources */,
 				7E75C005299674400006539B /* RecyclerViewAxis.swift in Sources */,
+				7E75C0112996751E0006539B /* GridView.swift in Sources */,
 				7E75BFD8299673730006539B /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,9 +404,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E75C00C299674B90006539B /* PageView.swift in Sources */,
+				7E75C0172996752E0006539B /* GridType.swift in Sources */,
 				7E75C001299674230006539B /* RecyclerView.swift in Sources */,
 				7E75BFE6299673730006539B /* Tests_macOSLaunchTests.swift in Sources */,
 				7E75C006299674400006539B /* RecyclerViewAxis.swift in Sources */,
+				7E75C0122996751E0006539B /* GridView.swift in Sources */,
 				7E75BFE4299673730006539B /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
